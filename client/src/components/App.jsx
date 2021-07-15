@@ -50,7 +50,6 @@ const App = () => {
       <AppContext.Provider value={{username, setUsername, bio, setBio, website, setWebsite, serverUrl, isArtist, setIsArtist}} >
         <RegistrationLogin/>
       </AppContext.Provider>
-      {/* <ArtistHome booking={booking}/> */}
     </>
   )
 };
