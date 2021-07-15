@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
-import { GOOGLE_API } from '../../../../config.js';
+// import { GOOGLE_API } from '../../../../config.js';
 
 class GoogleMap extends Component {
    // state = currentLocation
@@ -11,7 +11,7 @@ class GoogleMap extends Component {
             google={this.props.google}
             zoom={19}
             style={{
-               width: '350px',
+               width: '375px',
                height: '300px'
             }}
             initialCenter={{
@@ -25,7 +25,7 @@ class GoogleMap extends Component {
  }
 };
 
-export default GoogleApiWrapper({
-  apiKey: (GOOGLE_API)
- })(GoogleMap);
+// export default GoogleApiWrapper({
+//   apiKey: (GOOGLE_API)
+//  })(GoogleMap);
 
