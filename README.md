@@ -29,6 +29,9 @@ From the splash page, users can either register, login, or change the visual the
 
 ## Splash Page
 
+<p align="center">
+  <img src="./gifs/loginpages.gif" ><br>
+</p>
 The splash page is what the user sees when they open the app. They can navigate either to the login page or registration page. At the bottom of the page is a slider to switch between display themes.
 
 ## Register Page
@@ -36,7 +39,6 @@ The splash page is what the user sees when they open the app. They can navigate 
 The register page allows the user to register either as an artist or a fan. The user submits information for their google account, password, bio and portrait image. When the user clicks the “Create Account” button, they are either taken to the fan or artist home page.
 
 ## Login Page
-
 The login page allows existing users to login with their google account. After they click the “Login” button they are taken to the artist home page if they registered as an artist and to the fan home page if they registered as a fan.
 
 ## Fan Home
@@ -44,6 +46,9 @@ The login page allows existing users to login with their google account. After t
 The fan home is the landing page when a fan user logs into the app. There are navigation options to access the Artist Search and Favorite Artists pages.
 
 ## Favorite Artists
+<p align="center">
+  <img src="./gifs/fave-artist.gif" ><br>
+</p>
 
 The favorite artists page allowed the user to view information about their favorite artists including their bio, website, and upcoming tour dates. It gives the user easy access to check out what show they want to attend next. The view is accordion style and the data is pulled from our database. There is also a back button that navigates back to the Fan Home and a settings button with a log out option.
 
@@ -51,6 +56,9 @@ Future implementations: Delete functionality
 
 ## Artist Search
 
+<p align="center">
+  <img src="./gifs/artistsearch.gif" ><br>
+</p>
 This page allows the user to search for artists and view their live shows and upcoming events. You can also click on their website directly to be redirected for more information.
 
 Future implementation: add searched artist to favorite list.
@@ -61,10 +69,16 @@ The Artist home shows a brief cap of the Artist’s booked travels and the direc
 
 ## Artist Bookings
 
+<p align="center">
+  <img src="./gifs/bookings.gif" ><br>
+</p>
 The Artist bookings shows all booking that Artist has booked, and sorts it by time and date from the most recent to the latest. When too many bookings are made, the artist can use the calendar to select the dates to show the trips for a specific date. Upon clicking the individual booking, a dropdown card displays all the information about that booking and has a link to the yelp page for the venue/hotel. The back arrow on the top of the page takes the user back to the previous page.
 
 ## Artist Recommendations
 
+<p align="center">
+  <img src="./gifs/venues.gif" ><br>
+</p>
 This page enables the Artist user to search for venues, hotels, and restaurants to potentially book. The search uses the Yelp API with city and booking category parameters. The results of the search are displayed in an accordion, which can be toggled to view details. When the user selects the “Add to Bookings” button, a date picker modal appears which allows the user to save the booking for a designated date. Once a date is selected, the new booking will appear on the Artist Bookings page.
 
 ## Settings Modal
