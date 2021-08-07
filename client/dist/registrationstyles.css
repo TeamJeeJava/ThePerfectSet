@@ -18,7 +18,7 @@ font-family: 'Audiowide';
   font-family: 'Poppins, sans-serif';
   background-image: url("./images/gradient.png");
   background-color: lightblue;
-  animation: aurora 15s ease infinite;
+  animation: aurora 5s infinite;
 }
 @keyframes aurora {
   from { background: lightblue;
